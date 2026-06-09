@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Reemplaza 'nombre-de-tu-repositorio' por el nombre exacto de tu repo en GitHub
-  basePath: '/boludeces', 
+  basePath: '/boludeces',
+  assetPrefix: '/boludeces/',
 };
 
 export default nextConfig;
