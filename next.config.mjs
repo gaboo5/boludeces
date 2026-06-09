@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  output: 'export', // <-- Esto le dice a Next.js que genere HTML/CSS puro
   images: {
-    unoptimized: true,
+    unoptimized: true, // Evita errores con imágenes en GitHub Pages
   },
-}
+};
 
-export default nextConfig
+export default nextConfig;
