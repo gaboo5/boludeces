@@ -5,7 +5,7 @@ const nextConfig = {
     unoptimized: true,
   },
   // Reemplaza 'nombre-de-tu-repositorio' por el nombre exacto de tu repo en GitHub
-  basePath: '/nombre-de-tu-repositorio', 
+  basePath: '/boludeces', 
 };
 
 export default nextConfig;
