@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // <-- Esto le dice a Next.js que genere HTML/CSS puro
+  output: 'export',
   images: {
-    unoptimized: true, // Evita errores con imágenes en GitHub Pages
+    unoptimized: true,
   },
+  // Reemplaza 'nombre-de-tu-repositorio' por el nombre exacto de tu repo en GitHub
+  basePath: '/nombre-de-tu-repositorio', 
 };
 
 export default nextConfig;
